@@ -93,7 +93,7 @@ $CFG->dboptions = array(
 // If you need both intranet and Internet access please read
 // http://docs.moodle.org/en/masquerading
 
-$CFG->wwwroot   = 'http://example.com/moodle';
+$CFG->wwwroot   = 'https://git.heroku.com/gcuedu.git';
 
 
 //=========================================================================
@@ -109,7 +109,7 @@ $CFG->wwwroot   = 'http://example.com/moodle';
 //
 // - On Windows systems you might specify something like 'c:\moodledata'
 
-$CFG->dataroot  = '/home/example/moodledata';
+$CFG->dataroot  = 'postgres://lymidxlrctdmnd:535c7eb6bb1bf9c379cf810b2b5ad3363e34faeb872b841ee1959b4c9bf3416b@ec2-176-34-184-174.eu-west-1.compute.amazonaws.com:5432/dabmgnv429klnn';
 
 
 //=========================================================================
